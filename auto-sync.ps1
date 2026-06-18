@@ -1,5 +1,17 @@
 $ErrorActionPreference = "Stop"
 
+$syncMutex = New-Object System.Threading.Mutex($false, "Global\05_git_auto_sync")
+if (-not $syncMutex.WaitOne(0, $false)) {
+    exit 0
+}
+
+Register-EngineEvent PowerShell.Exiting -Action {
+    if ($script:syncMutex) {
+        $script:syncMutex.ReleaseMutex()
+        $script:syncMutex.Dispose()
+    }
+} | Out-Null
+
 $repo = Split-Path -Parent $MyInvocation.MyCommand.Path
 $git = "D:\App\APP_code\Git\cmd\git.exe"
 $debounceSeconds = 8
