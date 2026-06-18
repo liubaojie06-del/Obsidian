@@ -1,0 +1,228 @@
+{
+  "main": {
+    "id": "dd3c7d367ef72e68",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6201caf193ed364",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f71482fe15e4bd23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "计算机语言/C/4. 构造数据类型/01_联合体.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01_联合体"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3528156b58154bb9",
+    "type": "split",
+    "children": [
+      {
+        "id": "c34396129a827e58",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4a46f7e6f423e758",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "2abb141e207260d1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "198ea209834a4fdd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 424.5
+  },
+  "right": {
+    "id": "eae3f067d4d46fd2",
+    "type": "split",
+    "children": [
+      {
+        "id": "d1ca6854c24ae106",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f67d7cc042351172",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "电气自动化/📚 数据库.base",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "📚 数据库 的反向链接列表"
+            }
+          },
+          {
+            "id": "5090620e7b530dd3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "电气自动化/📚 数据库.base",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "📚 数据库 的出链列表"
+            }
+          },
+          {
+            "id": "1ad3a8d74a512ea6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "94ac717a771d4b67",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "7960c6d2b01c1de7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "电气自动化/📚 数据库.base",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "📚 数据库 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "f71482fe15e4bd23",
+  "lastOpenFiles": [
+    "AI提示词/AI文本提示词.md",
+    "未命名.md",
+    "AI提示词/AI文本提示词 1.md",
+    "未命名.base",
+    "计算机语言/C/7_内存管理/01_堆区内存管理.md",
+    "计算机语言/C/7_内存管理/00_变量的存储空间.md",
+    "计算机语言/C/3. 指针与高级函数/01_高级函数/01_递归函数.md",
+    "计算机语言/C/3. 指针与高级函数/01_高级函数/00_回调函数.md",
+    "计算机语言/C/2. 函数与程序组织/02_内存管理家族/02_static.md",
+    "计算机语言/C/2. 函数与程序组织/02_内存管理家族/01_const.md",
+    "计算机语言/C/2. 函数与程序组织/02_内存管理家族/00_sizeof.md",
+    "计算机语言/C/2. 函数与程序组织/02_内存管理家族/03_memset.md",
+    "计算机语言/C/2. 函数与程序组织/02_内存管理家族/memset.md.baiduyun.uploading.cfg",
+    "计算机语言/C/2. 函数与程序组织/02_内存管理家族/未命名.md.baiduyun.uploading.cfg",
+    "计算机语言/C/2. 函数与程序组织/00_函数/01_函数传参.md",
+    "计算机语言/C/2. 函数与程序组织/00_函数/00_函数.md",
+    "计算机语言/C/7_内存管理/未命名.md.baiduyun.uploading.cfg",
+    "计算机语言/C/6_预处理与工程模块化/01_多文件编程/05_static.md",
+    "计算机语言/C/1. 基础语法与核心逻辑/00_常量.md",
+    "计算机语言/C/1. 基础语法与核心逻辑/01_变量.md",
+    "计算机语言/C/7_内存管理",
+    "计算机语言/C/1. 基础语法与核心逻辑/02_运算符.md",
+    "计算机语言/C/4. 构造数据类型/03_位域.md",
+    "计算机语言/C/4. 构造数据类型/未命名.md.baiduyun.uploading.cfg",
+    "计算机语言/C/4. 构造数据类型/02_枚举.md",
+    "计算机语言/C/4. 构造数据类型/01_联合体.md",
+    "计算机语言/C/4. 构造数据类型/00_结构体.md",
+    "计算机语言/C/6_预处理与工程模块化/00_预处理/00_宏定义.md",
+    "计算机语言/C/5. 高级特性与系统级开发/00_define 宏定义.md",
+    "计算机语言/C/6_预处理与工程模块化/01_多文件编程/01_extern.md",
+    "计算机语言/C/6_预处理与工程模块化/00_预处理/04_条件编译.md",
+    "计算机语言/C/6_预处理与工程模块化/00_预处理/03_不定参数宏.md",
+    "计算机语言/C/6_预处理与工程模块化/01_多文件编程/未命名.md.baiduyun.uploading.cfg",
+    "计算机语言/C/6_预处理与工程模块化/01_多文件编程/未命名",
+    "计算机语言/C/6_预处理与工程模块化/01_多文件编程",
+    "计算机语言/C/6_预处理与工程模块化/00_预处理/未命名.md.baiduyun.uploading.cfg",
+    "Pasted image 20260503203406.png",
+    "电气自动化/02_硬件/02_驱动与运动控制层/00_变频器/未命名.canvas",
+    "电气自动化/软件/西门子PLC/项目树/设备/1_项目/未命名.canvas"
+  ]
+}

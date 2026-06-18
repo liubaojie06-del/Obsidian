@@ -11,3 +11,6 @@ Desktop.ini
 
 # Local auto-sync logs
 auto-sync.log
+
+# Cloud sync temp files
+*.baiduyun.uploading.cfg

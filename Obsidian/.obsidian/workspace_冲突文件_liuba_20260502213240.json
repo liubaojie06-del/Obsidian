@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "dd3c7d367ef72e68",
+    "type": "split",
+    "children": [
+      {
+        "id": "1558ab2f6b28e244",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "03a5c2c2b0f77171",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI提示词/AI文本提示词.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AI文本提示词"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3528156b58154bb9",
+    "type": "split",
+    "children": [
+      {
+        "id": "c34396129a827e58",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4a46f7e6f423e758",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "2abb141e207260d1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "198ea209834a4fdd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 418.5
+  },
+  "right": {
+    "id": "eae3f067d4d46fd2",
+    "type": "split",
+    "children": [
+      {
+        "id": "d1ca6854c24ae106",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f67d7cc042351172",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "电气自动化/📚 数据库.base",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "📚 数据库 的反向链接列表"
+            }
+          },
+          {
+            "id": "5090620e7b530dd3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "电气自动化/📚 数据库.base",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "📚 数据库 的出链列表"
+            }
+          },
+          {
+            "id": "1ad3a8d74a512ea6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "94ac717a771d4b67",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "7960c6d2b01c1de7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "电气自动化/📚 数据库.base",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "📚 数据库 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "03a5c2c2b0f77171",
+  "lastOpenFiles": [
+    "电气自动化/01_软件/西门子/项目树/设备/1_项目/01_添加新设备/未命名.md",
+    "电气自动化/01_软件/西门子/项目树/设备/1_项目/01_添加新设备/未命名.md.baiduyun.uploading.cfg",
+    "AI提示词/AI文本提示词.md",
+    "电气自动化/01_软件/西门子/指令/02_基础指令/02_定时器操作.md",
+    "电气自动化/01_软件/西门子/指令/02_基础指令/01_位逻辑运算.md",
+    "电气自动化/01_软件/西门子/项目树/设备/1_项目/03_PLC/06_PLC 变量/PLC 变量.md",
+    "电气自动化/01_软件/西门子/项目树/设备/1_项目/03_PLC/03_程序块/00_OB组织块.md",
+    "电气自动化/01_软件/西门子/项目树/设备/1_项目/03_PLC/02_在线与诊断/00_在线与诊断.md",
+    "电气自动化/01_软件/西门子/项目树/设备/1_项目/01_添加新设备/未命名",
+    "电气自动化/01_软件/西门子/项目树/设备/1_项目/01_添加新设备/00_控制器PLC.md",
+    "电气自动化/01_软件/西门子/项目树/设备/1_项目/01_添加新设备/00_控制器PLC.md.baiduyun.uploading.cfg",
+    "AI提示词/AI指令提示词.md",
+    "电气自动化/01_软件/西门子/项目树/设备/1_项目/01_添加新设备/未命名 4.md",
+    "电气自动化/01_软件/西门子/项目树/设备/1_项目/01_添加新设备/未命名 4.md.baiduyun.uploading.cfg",
+    "电气自动化/01_软件/西门子/项目树/设备/1_项目/01_添加新设备/未命名 3.md.baiduyun.uploading.cfg",
+    "电气自动化/01_软件/西门子/项目树/设备/1_项目/01_添加新设备/未命名 2.md.baiduyun.uploading.cfg",
+    "电气自动化/01_软件/西门子/项目树/设备/1_项目/01_添加新设备/未命名 3.md",
+    "电气自动化/01_软件/西门子/项目树/设备/1_项目/01_添加新设备/未命名 2.md",
+    "电气自动化/01_软件/西门子/项目树/设备/1_项目/01_添加新设备/未命名 1.md",
+    "电气自动化/01_软件/西门子/项目树/设备/1_项目/01_添加新设备/未命名 1.md.baiduyun.uploading.cfg",
+    "电气自动化/01_软件/西门子/项目树/工厂对象/工厂对象.md",
+    "电气自动化/数据库.base",
+    "操作系统/Linux/Linux基础命令/5. 文本处理与搜索神技.md",
+    "操作系统/Linux/Linux基础命令/4. 网络配置与诊断.md",
+    "操作系统/Linux/Linux基础命令/3. 用户与权限管理.md",
+    "操作系统/Linux/Linux基础命令/2. 系统信息与资源监控.md",
+    "操作系统/Linux/Linux基础命令/1. 文件与目录操作.md",
+    "电气自动化/01_软件/西门子/硬件目录/其他现场设备/PROFINET IO.md",
+    "电气自动化/01_软件/西门子/硬件目录/通讯模块/点对点.md",
+    "电气自动化/软件/西门子/硬件目录/PLC ET 200 家族.md",
+    "电气自动化/软件/西门子/项目树/工厂对象/未命名.md.baiduyun.uploading.cfg",
+    "计算机语言/C++/未命名.md",
+    "电气自动化/01_软件/汇川",
+    "电气自动化/未命名.md",
+    "CSS代码/CSS.md",
+    "电气自动化/软件/西门子PLC/项目树/设备/1_项目/未命名.canvas"
+  ]
+}

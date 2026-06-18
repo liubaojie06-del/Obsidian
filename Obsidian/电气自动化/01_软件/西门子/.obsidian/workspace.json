@@ -1,0 +1,245 @@
+{
+  "main": {
+    "id": "01ea0f0be6b56929",
+    "type": "split",
+    "children": [
+      {
+        "id": "39398c2e744bed24",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8e3e9d86078c6c63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "硬件/电机/⚙️ 减速电机.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "⚙️ 减速电机"
+            }
+          },
+          {
+            "id": "28af5cd9d2c432a6",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "📚 数据库.base",
+                "viewName": "表格"
+              },
+              "icon": "lucide-table",
+              "title": "📚 数据库"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "31d2e5da1c8e069d",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d5231335776fef4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf8f8f064e299436",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "754b7e1f21158792",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "f5c875cc3c536fee",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 402.5
+  },
+  "right": {
+    "id": "5416c625fb25c82c",
+    "type": "split",
+    "children": [
+      {
+        "id": "353ec62846272512",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "49f410e83d48eb59",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "PLC基础指令/🔢 PLC 计数器操作指令.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "🔢 PLC 计数器操作指令 的反向链接列表"
+            }
+          },
+          {
+            "id": "fd91ff722827fb12",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "PLC基础指令/🔢 PLC 计数器操作指令.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "🔢 PLC 计数器操作指令 的出链列表"
+            }
+          },
+          {
+            "id": "d279cea9cdfd1c21",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "481b093840d99e96",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "b71702120bc1d99e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "PLC基础指令/🔢 PLC 计数器操作指令.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "🔢 PLC 计数器操作指令 的大纲"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "bf8f8f064e299436",
+  "lastOpenFiles": [
+    "软件",
+    "📚 数据库.base",
+    "未命名.md",
+    "硬件/电机/🔋 直流电机.md",
+    "硬件/电机/🎯 伺服电机.md",
+    "硬件/电机/⚙️ 减速电机.md",
+    "硬件/电机/⚡ 三相异步电机.md",
+    "硬件/电机/⚙️ 步进电机.md",
+    "硬件/电机",
+    "硬件",
+    "软件/PLC程序块（子程序）/🧩 PLC OB组织块.md",
+    "软件/PLC程序块（子程序）/🧱 PLC FB函数块.md",
+    "软件/PLC程序块（子程序）/🧮 PLC FC 函数.md",
+    "软件/PLC程序块（子程序）/🗃️ PLC DB 数据块.md",
+    "软件/PLC指令与函数/PLC选件包/⚙️ PLC SINAMICS 与 Energy Suite 扩展指令.md",
+    "软件/PLC指令与函数/PLC选件包/🏷️ PLC SIMATIC Ident 识别指令.md",
+    "软件/PLC指令与函数/PLC通讯/📡 PLC 通信处理器指令.md",
+    "软件/PLC指令与函数/PLC选件包",
+    "软件/PLC指令与函数/PLC通讯/🌐 PLC OPC UA、WEB、MODBUS 与远程服务指令.md",
+    "软件/PLC指令与函数/PLC通讯/🌐 PLC 通信指令.md",
+    "软件/PLC指令与函数/PLC工艺/🎯 PLC Motion Control 运动控制指令.md",
+    "软件/PLC指令与函数/PLC通讯",
+    "软件/PLC指令与函数/PLC工艺/🎯 PLC 计数与 PID 控制指令.md",
+    "软件/PLC指令与函数/PLC工艺/未命名 1.md",
+    "软件/PLC指令与函数/PLC扩扩展指令/📁 PLC 文件处理与安全扩展指令.md",
+    "软件/PLC指令与函数/PLC工艺",
+    "PLC指令/未命名.md",
+    "软件/PLC指令与函数/PLC扩扩展指令/未命名.md",
+    "软件/PLC指令与函数/PLC扩扩展指令/🗃️ PLC 数据块控制与寻址指令.md",
+    "软件/PLC指令与函数/PLC扩扩展指令/⚡ PLC 脉冲、配方与数据记录指令.md",
+    "PLC指令/PLC扩扩展指令/未命名",
+    "PLC指令/PLC扩扩展指令/未命名 6.md",
+    "软件/PLC指令与函数/PLC扩扩展指令/🚨 PLC 报警与诊断指令.md",
+    "软件/PLC指令与函数/PLC扩扩展指令",
+    "软件/PLC指令与函数",
+    "Pasted image 20260413210941.png",
+    "Pasted image 20260413210928.png",
+    "Pasted image 20260413210917.png",
+    "Pasted image 20260413210845.png",
+    "软件/PLC指令与函数/PLC基础指令",
+    "未命名.canvas"
+  ]
+}

@@ -1,0 +1,559 @@
+/* =========================================================
+   Obsidian 文件目录高级美化完整安全版
+   功能：
+   1. 顶层目录彩色区分
+   2. 子目录和文件自动继承所属顶层目录颜色
+   3. 当前文件高亮
+   4. 不修改正文格式
+   5. 不影响标题、代码块、表格、列表
+   ========================================================= */
+
+
+/* =========================
+   全局颜色变量
+   ========================= */
+
+body {
+  --folder-blue: #3b82f6;
+  --folder-cyan: #06b6d4;
+  --folder-green: #22c55e;
+  --folder-orange: #f59e0b;
+  --folder-red: #ef4444;
+  --folder-purple: #8b5cf6;
+  --folder-pink: #ec4899;
+  --folder-gray: #64748b;
+
+  --tree-radius: 11px;
+  --tree-shadow: 0 4px 14px rgba(15, 23, 42, 0.08);
+}
+
+
+/* =========================
+   左侧文件树整体
+   ========================= */
+
+.nav-files-container {
+  padding: 8px 10px 16px 10px;
+}
+
+/* 文件夹和文件基础样式 */
+.nav-folder-title,
+.nav-file-title {
+  border-radius: var(--tree-radius);
+  margin: 3px 0;
+  padding: 5px 9px;
+  transition:
+    background 0.16s ease,
+    color 0.16s ease,
+    transform 0.16s ease,
+    box-shadow 0.16s ease;
+}
+
+/* 鼠标悬停 */
+.nav-folder-title:hover,
+.nav-file-title:hover {
+  transform: translateX(2px);
+}
+
+
+/* =========================
+   顶层目录自动分配颜色
+   ========================= */
+
+.nav-files-container > div > .nav-folder:nth-child(7n + 1) {
+  --folder-color: var(--folder-blue);
+}
+
+.nav-files-container > div > .nav-folder:nth-child(7n + 2) {
+  --folder-color: var(--folder-cyan);
+}
+
+.nav-files-container > div > .nav-folder:nth-child(7n + 3) {
+  --folder-color: var(--folder-green);
+}
+
+.nav-files-container > div > .nav-folder:nth-child(7n + 4) {
+  --folder-color: var(--folder-orange);
+}
+
+.nav-files-container > div > .nav-folder:nth-child(7n + 5) {
+  --folder-color: var(--folder-red);
+}
+
+.nav-files-container > div > .nav-folder:nth-child(7n + 6) {
+  --folder-color: var(--folder-purple);
+}
+
+.nav-files-container > div > .nav-folder:nth-child(7n) {
+  --folder-color: var(--folder-pink);
+}
+
+
+/* =========================
+   按文件夹名称固定颜色
+   这里的名字可以改成你自己的顶层目录名
+   ========================= */
+
+.nav-files-container > div > .nav-folder:has(> .nav-folder-title[data-path^="编程语言"]) {
+  --folder-color: #3b82f6;
+}
+
+.nav-files-container > div > .nav-folder:has(> .nav-folder-title[data-path^="操作系统"]) {
+  --folder-color: #06b6d4;
+}
+
+.nav-files-container > div > .nav-folder:has(> .nav-folder-title[data-path^="电气自动化"]) {
+  --folder-color: #22c55e;
+}
+
+.nav-files-container > div > .nav-folder:has(> .nav-folder-title[data-path^="未命名"]) {
+  --folder-color: #f59e0b;
+}
+
+.nav-files-container > div > .nav-folder:has(> .nav-folder-title[data-path^="CSS代码"]) {
+  --folder-color: #ef4444;
+}
+
+
+/* =========================
+   顶层文件夹样式
+   ========================= */
+
+.nav-files-container > div > .nav-folder > .nav-folder-title {
+  color: var(--folder-color) !important;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+
+  background: linear-gradient(
+    90deg,
+    color-mix(in srgb, var(--folder-color) 20%, transparent),
+    color-mix(in srgb, var(--folder-color) 7%, transparent)
+  ) !important;
+
+  box-shadow: inset 4px 0 0 var(--folder-color);
+}
+
+/* 顶层文件夹箭头 */
+.nav-files-container > div > .nav-folder > .nav-folder-title .collapse-icon {
+  color: var(--folder-color) !important;
+}
+
+
+/* =========================
+   子文件夹样式
+   子文件夹会继承顶层目录颜色
+   ========================= */
+
+.nav-files-container > div > .nav-folder .nav-folder-children .nav-folder-title {
+  color: color-mix(in srgb, var(--folder-color) 72%, var(--text-normal)) !important;
+  font-weight: 700;
+
+  background: color-mix(
+    in srgb,
+    var(--folder-color) 7%,
+    transparent
+  ) !important;
+
+  box-shadow: inset 2px 0 0 color-mix(
+    in srgb,
+    var(--folder-color) 45%,
+    transparent
+  );
+}
+
+/* 子文件夹 hover */
+.nav-files-container > div > .nav-folder .nav-folder-children .nav-folder-title:hover {
+  color: var(--folder-color) !important;
+
+  background: color-mix(
+    in srgb,
+    var(--folder-color) 13%,
+    transparent
+  ) !important;
+}
+
+/* 子文件夹箭头 */
+.nav-files-container > div > .nav-folder .nav-folder-children .nav-folder-title .collapse-icon {
+  color: color-mix(in srgb, var(--folder-color) 70%, var(--text-muted)) !important;
+}
+
+
+/* =========================
+   文件样式
+   文件也会继承所属顶层目录颜色
+   ========================= */
+
+.nav-files-container > div > .nav-folder .nav-file-title {
+  color: color-mix(in srgb, var(--folder-color) 58%, var(--text-normal)) !important;
+  font-weight: 520;
+}
+
+/* 文件 hover */
+.nav-files-container > div > .nav-folder .nav-file-title:hover {
+  color: var(--folder-color) !important;
+
+  background: color-mix(
+    in srgb,
+    var(--folder-color) 10%,
+    transparent
+  ) !important;
+}
+
+/* 文件名前的小圆点 */
+.nav-files-container > div > .nav-folder .nav-file-title-content::before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin-right: 8px;
+  border-radius: 50%;
+  vertical-align: middle;
+
+  background: var(--folder-color);
+  opacity: 0.55;
+}
+
+
+/* =========================
+   当前选中文件
+   ========================= */
+
+.nav-files-container > div > .nav-folder .nav-file-title.is-active {
+  color: var(--folder-color) !important;
+  font-weight: 800 !important;
+
+  background: linear-gradient(
+    90deg,
+    color-mix(in srgb, var(--folder-color) 24%, transparent),
+    color-mix(in srgb, var(--folder-color) 8%, transparent)
+  ) !important;
+
+  box-shadow: inset 4px 0 0 var(--folder-color);
+}
+
+/* 当前选中文件小圆点 */
+.nav-files-container > div > .nav-folder .nav-file-title.is-active .nav-file-title-content::before {
+  background: var(--folder-color) !important;
+  opacity: 1;
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--folder-color) 18%, transparent);
+}
+
+
+/* =========================
+   子目录层级竖线
+   ========================= */
+
+.nav-folder-children {
+  margin-left: 8px;
+  padding-left: 10px;
+
+  border-left: 1px dashed color-mix(
+    in srgb,
+    var(--folder-color, #94a3b8) 32%,
+    transparent
+  );
+}
+
+
+/* =========================
+   左侧文件树顶部按钮轻微美化
+   ========================= */
+
+.nav-header {
+  padding: 8px 10px;
+}
+
+.nav-action-button {
+  border-radius: 9px;
+  transition:
+    background 0.16s ease,
+    transform 0.16s ease;
+}
+
+.nav-action-button:hover {
+  background: rgba(139, 92, 246, 0.12);
+  transform: translateY(-1px);
+}
+
+
+/* =========================
+   顶部标签页美化
+   ========================= */
+
+.workspace-tab-header {
+  border-radius: 10px 10px 0 0;
+  transition: background 0.16s ease;
+}
+
+.workspace-tab-header.is-active {
+  background: linear-gradient(
+    90deg,
+    rgba(139, 92, 246, 0.16),
+    rgba(59, 130, 246, 0.08)
+  );
+}
+
+.workspace-tab-header.is-active .workspace-tab-header-inner-title {
+  color: #334155;
+  font-weight: 800;
+}
+
+.theme-dark .workspace-tab-header.is-active .workspace-tab-header-inner-title {
+  color: #e5e7eb;
+}
+
+
+/* =========================
+   标签属性美化
+   不影响正文排版
+   ========================= */
+
+.multi-select-pill,
+.tag {
+  border-radius: 999px;
+  background: rgba(139, 92, 246, 0.12);
+  color: #7c3aed;
+  font-weight: 650;
+}
+
+
+/* =========================
+   滚动条美化
+   ========================= */
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #a78bfa, #60a5fa);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+
+/* =========================
+   设置页开关颜色
+   ========================= */
+
+.checkbox-container.is-enabled {
+  background-color: #8b5cf6;
+}
+/* ===== Obsidian 首页导航样式 ===== */
+
+.callout[data-callout^="nav-"] {
+  border: none;
+  border-radius: 22px;
+  padding: 0;
+  margin: 14px 0;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+}
+
+/* 标题栏 */
+.callout[data-callout^="nav-"] .callout-title {
+  min-height: 52px;
+  padding: 0 22px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+/* 标题文字 */
+.callout[data-callout^="nav-"] .callout-title-inner {
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+}
+
+/* 展开内容区 */
+.callout[data-callout^="nav-"] .callout-content {
+  padding: 6px 22px 20px 22px;
+}
+
+/* 去掉默认列表样式，改为卡片网格 */
+.callout[data-callout^="nav-"] .callout-content ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 8px 0 0 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 10px;
+}
+
+.callout[data-callout^="nav-"] .callout-content li {
+  margin: 0;
+}
+
+/* 链接卡片 */
+.callout[data-callout^="nav-"] .callout-content a.internal-link {
+  display: block;
+  padding: 11px 14px;
+  border-radius: 15px;
+  text-decoration: none;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.58);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+  transition: all 0.18s ease;
+}
+
+.callout[data-callout^="nav-"] .callout-content a.internal-link:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+/* 操作系统：青色 */
+.callout[data-callout="nav-os"] {
+  --callout-color: 0, 188, 212;
+  background: linear-gradient(90deg, rgba(0, 188, 212, 0.22), rgba(0, 188, 212, 0.06));
+}
+
+.callout[data-callout="nav-os"] .callout-title-inner,
+.callout[data-callout="nav-os"] .callout-icon {
+  color: rgb(0, 174, 204);
+}
+
+/* 电气自动化：绿色 */
+.callout[data-callout="nav-auto"] {
+  --callout-color: 34, 197, 94;
+  background: linear-gradient(90deg, rgba(34, 197, 94, 0.22), rgba(34, 197, 94, 0.06));
+}
+
+.callout[data-callout="nav-auto"] .callout-title-inner,
+.callout[data-callout="nav-auto"] .callout-icon {
+  color: rgb(22, 180, 80);
+}
+
+/* 计算机语言：橙色 */
+.callout[data-callout="nav-code"] {
+  --callout-color: 245, 158, 11;
+  background: linear-gradient(90deg, rgba(245, 158, 11, 0.24), rgba(245, 158, 11, 0.07));
+}
+
+.callout[data-callout="nav-code"] .callout-title-inner,
+.callout[data-callout="nav-code"] .callout-icon {
+  color: rgb(245, 145, 0);
+}
+
+/* 深色模式适配 */
+.theme-dark .callout[data-callout^="nav-"] .callout-content a.internal-link {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.theme-dark .callout[data-callout^="nav-"] .callout-content a.internal-link:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+---
+
+## 3. 加一段 CSS，让网站管理页更美观
+
+把下面代码追加到你的 `home-nav.css` 后面：
+
+```css
+/* ===== 网站管理页 Callout 样式 ===== */
+
+.callout[data-callout^="web-"] {
+  border: none;
+  border-radius: 20px;
+  padding: 0;
+  margin: 14px 0;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+.callout[data-callout^="web-"] .callout-title {
+  min-height: 48px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.callout[data-callout^="web-"] .callout-title-inner {
+  font-size: 1.15rem;
+  font-weight: 800;
+}
+
+.callout[data-callout^="web-"] .callout-content {
+  padding: 8px 22px 20px 22px;
+}
+
+.callout[data-callout^="web-"] .callout-content ul {
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 10px;
+}
+
+.callout[data-callout^="web-"] .callout-content li {
+  margin: 0;
+  padding: 10px 14px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.62);
+  transition: all 0.18s ease;
+}
+
+.callout[data-callout^="web-"] .callout-content li:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+}
+
+/* 不同分区颜色 */
+
+.callout[data-callout="web-common"] {
+  --callout-color: 14, 165, 233;
+  background: linear-gradient(90deg, rgba(14, 165, 233, 0.22), rgba(14, 165, 233, 0.06));
+}
+
+.callout[data-callout="web-study"] {
+  --callout-color: 34, 197, 94;
+  background: linear-gradient(90deg, rgba(34, 197, 94, 0.22), rgba(34, 197, 94, 0.06));
+}
+
+.callout[data-callout="web-tool"] {
+  --callout-color: 245, 158, 11;
+  background: linear-gradient(90deg, rgba(245, 158, 11, 0.24), rgba(245, 158, 11, 0.06));
+}
+
+.callout[data-callout="web-code"] {
+  --callout-color: 99, 102, 241;
+  background: linear-gradient(90deg, rgba(99, 102, 241, 0.22), rgba(99, 102, 241, 0.06));
+}
+
+.callout[data-callout="web-work"] {
+  --callout-color: 236, 72, 153;
+  background: linear-gradient(90deg, rgba(236, 72, 153, 0.22), rgba(236, 72, 153, 0.06));
+}
+
+.callout[data-callout="web-wait"] {
+  --callout-color: 148, 163, 184;
+  background: linear-gradient(90deg, rgba(148, 163, 184, 0.24), rgba(148, 163, 184, 0.06));
+}
+
+/* 深色模式 */
+
+.theme-dark .callout[data-callout^="web-"] .callout-content li {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.theme-dark .callout[data-callout^="web-"] .callout-content li:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+/* 工控企业官网 */
+.callout[data-callout="web-company"] {
+  --callout-color: 59, 130, 246;
+  background: linear-gradient(90deg, rgba(59, 130, 246, 0.20), rgba(59, 130, 246, 0.06));
+}
+
+.callout[data-callout="web-company"] .callout-title-inner,
+.callout[data-callout="web-company"] .callout-icon {
+  color: rgb(37, 99, 235);
+}
