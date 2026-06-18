@@ -8,3 +8,6 @@ Desktop.ini
 
 # Logs
 *.log
+
+# Local auto-sync logs
+auto-sync.log
