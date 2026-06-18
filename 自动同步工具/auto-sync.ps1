@@ -12,7 +12,8 @@ Register-EngineEvent PowerShell.Exiting -Action {
     }
 } | Out-Null
 
-$repo = Split-Path -Parent $MyInvocation.MyCommand.Path
+$toolDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+$repo = Split-Path -Parent $toolDir
 $git = "D:\App\APP_code\Git\cmd\git.exe"
 $debounceSeconds = 8
 $lastRun = Get-Date "2000-01-01"
