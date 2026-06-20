@@ -564,8 +564,16 @@ body {
 .markdown-source-view.prompt-round-cards .callout[data-callout^="nav-"],
 .markdown-source-view.prompt-round-cards .callout[data-callout^="web-"] {
   border-radius: 18px !important;
-  margin: 8px 0 !important;
+  margin: 0 !important;
   padding: 0 !important;
+}
+
+.markdown-preview-view.prompt-round-cards .el-div:has(> .callout[data-callout^="nav-"]),
+.markdown-preview-view.prompt-round-cards .el-div:has(> .callout[data-callout^="web-"]) {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }
 
 .markdown-preview-view.prompt-round-cards .callout[data-callout^="nav-"] .callout-content a.internal-link,
