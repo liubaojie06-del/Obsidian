@@ -1,6 +1,9 @@
-# Obsidian 提示词库
+---
+cssclasses:
+  - prompt-square-cards
+---
 
-> 用于整理、生成、优化 Obsidian 笔记的提示词模板。所有模板都尽量贴合当前库里的笔记风格：`web-*` 网站卡片、`nav-*` 导航卡片、`cards / clean-embeds` 知识卡片，以及蓝色/橙色/绿色 callout 结构。
+# Obsidian 提示词库
 
 ## 快速入口
 

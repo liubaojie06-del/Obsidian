@@ -557,3 +557,25 @@ body {
 .callout[data-callout="web-company"] .callout-icon {
   color: rgb(37, 99, 235);
 }
+
+/* ===== Obsidian 提示词库：统一方形卡片 ===== */
+.markdown-preview-view.prompt-square-cards .callout[data-callout^="nav-"],
+.markdown-preview-view.prompt-square-cards .callout[data-callout^="web-"],
+.markdown-source-view.prompt-square-cards .callout[data-callout^="nav-"],
+.markdown-source-view.prompt-square-cards .callout[data-callout^="web-"] {
+  border-radius: 6px !important;
+}
+
+.markdown-preview-view.prompt-square-cards .callout[data-callout^="nav-"] .callout-content a.internal-link,
+.markdown-source-view.prompt-square-cards .callout[data-callout^="nav-"] .callout-content a.internal-link,
+.markdown-preview-view.prompt-square-cards .callout[data-callout^="web-"] .callout-content li,
+.markdown-source-view.prompt-square-cards .callout[data-callout^="web-"] .callout-content li {
+  border-radius: 6px !important;
+}
+
+.markdown-preview-view.prompt-square-cards .callout[data-callout^="nav-"] .callout-title,
+.markdown-preview-view.prompt-square-cards .callout[data-callout^="web-"] .callout-title,
+.markdown-source-view.prompt-square-cards .callout[data-callout^="nav-"] .callout-title,
+.markdown-source-view.prompt-square-cards .callout[data-callout^="web-"] .callout-title {
+  border-radius: 6px !important;
+}
