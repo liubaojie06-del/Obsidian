@@ -2,10 +2,6 @@
 cssclasses:
   - prompt-round-cards
 ---
-
-
-## 快速入口
-
 > [!nav-os]- 🗂 通用整理
 > - [[Obsidian_通用笔记整理提示词]]
 > - [[Obsidian_目录结构整理提示词]]
