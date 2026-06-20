@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网站管理/工具网站.md",
+                "file": "Codex提示词/00_office/01_Word/Word_报告生成提示词.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "工具网站"
+              "title": "Word_报告生成提示词"
             }
           }
         ]
@@ -185,9 +185,11 @@
   },
   "active": "4a46f7e6f423e758",
   "lastOpenFiles": [
+    "网站管理/工具网站/账号_接码工具.md",
+    "网站管理/工具网站",
+    "网站管理/工具网站.md",
     "Codex提示词/01_Obsidian",
     "网站管理/编程网站.md",
-    "网站管理/工具网站.md",
     "网站管理/工控网站.md",
     "网站管理/学习网站.md",
     "Codex提示词/00_office/03_PowerPoint/PPT_排版检查提示词.md",
@@ -219,8 +221,6 @@
     "Codex提示词/00_office/00_AI提示词库/01_办公软件提示词/_backups/card-ui-20260621-010951/05_OneNote",
     "Codex提示词/00_office/00_AI提示词库/01_办公软件提示词/_backups/card-ui-20260621-010951/04_Outlook/Outlook_提示词目录.md",
     "Codex提示词/00_office/00_AI提示词库/01_办公软件提示词/_backups/card-ui-20260621-010951/04_Outlook",
-    "Codex提示词/00_office/00_AI提示词库/01_办公软件提示词/_backups/card-ui-20260621-010951/03_PowerPoint",
-    "Codex提示词/00_office/00_AI提示词库/01_办公软件提示词/_backups/card-ui-20260621-010951/02_Excel",
     "Pasted image 20260503203406.png",
     "电气自动化/02_硬件/02_驱动与运动控制层/00_变频器/未命名.canvas",
     "电气自动化/软件/西门子PLC/项目树/设备/1_项目/未命名.canvas"
