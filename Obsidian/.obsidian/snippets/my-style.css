@@ -563,8 +563,8 @@ body {
 .markdown-preview-view.prompt-round-cards .callout[data-callout^="web-"],
 .markdown-source-view.prompt-round-cards .callout[data-callout^="nav-"],
 .markdown-source-view.prompt-round-cards .callout[data-callout^="web-"] {
-  border-radius: 22px !important;
-  margin: 14px 0 !important;
+  border-radius: 18px !important;
+  margin: 8px 0 !important;
   padding: 0 !important;
 }
 
@@ -572,16 +572,16 @@ body {
 .markdown-source-view.prompt-round-cards .callout[data-callout^="nav-"] .callout-content a.internal-link,
 .markdown-preview-view.prompt-round-cards .callout[data-callout^="web-"] .callout-content li,
 .markdown-source-view.prompt-round-cards .callout[data-callout^="web-"] .callout-content li {
-  border-radius: 18px !important;
+  border-radius: 14px !important;
 }
 
 .markdown-preview-view.prompt-round-cards .callout[data-callout^="nav-"] .callout-title,
 .markdown-preview-view.prompt-round-cards .callout[data-callout^="web-"] .callout-title,
 .markdown-source-view.prompt-round-cards .callout[data-callout^="nav-"] .callout-title,
 .markdown-source-view.prompt-round-cards .callout[data-callout^="web-"] .callout-title {
-  border-radius: 22px !important;
-  min-height: 64px !important;
-  padding: 0 22px !important;
+  border-radius: 18px !important;
+  min-height: 50px !important;
+  padding: 0 18px !important;
   display: flex !important;
   align-items: center !important;
 }
@@ -590,7 +590,7 @@ body {
 .markdown-preview-view.prompt-round-cards .callout[data-callout^="web-"] .callout-title-inner,
 .markdown-source-view.prompt-round-cards .callout[data-callout^="nav-"] .callout-title-inner,
 .markdown-source-view.prompt-round-cards .callout[data-callout^="web-"] .callout-title-inner {
-  font-size: 1.35rem !important;
+  font-size: 1.18rem !important;
   font-weight: 800 !important;
   line-height: 1.2 !important;
 }
@@ -599,7 +599,7 @@ body {
 .markdown-preview-view.prompt-round-cards .callout[data-callout^="web-"] .callout-icon,
 .markdown-source-view.prompt-round-cards .callout[data-callout^="nav-"] .callout-icon,
 .markdown-source-view.prompt-round-cards .callout[data-callout^="web-"] .callout-icon {
-  width: 24px !important;
-  height: 24px !important;
-  flex: 0 0 24px !important;
+  width: 21px !important;
+  height: 21px !important;
+  flex: 0 0 21px !important;
 }
