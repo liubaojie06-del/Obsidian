@@ -1,9 +1,8 @@
 ---
 cssclasses:
-  - prompt-square-cards
+  - prompt-round-cards
 ---
 
-# Obsidian 提示词库
 
 ## 快速入口
 
@@ -49,10 +48,4 @@ cssclasses:
 > [!web-wait]- 🧾 使用记录
 > - [[Obsidian提示词使用记录]]
 
-## 风格约定
 
-- 网站管理页优先使用 `> [!web-xxx]-` 折叠 callout，小卡片链接放在 callout 内部。
-- 首页或 MOC 导航页优先使用 `> [!nav-os]-`、`> [!nav-auto]-`、`> [!nav-code]-`。
-- 计算机和学习类知识卡片优先使用 `cssclasses: [cards, clean-embeds]`。
-- 电气自动化类优先使用 `info`、`note`、`warning`、`tip` 组合：核心结论、蓝色理解、橙色公式/风险、口诀。
-- 修改现有笔记前必须先输出方案，等确认后再执行。

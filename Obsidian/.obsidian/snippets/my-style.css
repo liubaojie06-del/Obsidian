@@ -558,24 +558,48 @@ body {
   color: rgb(37, 99, 235);
 }
 
-/* ===== Obsidian 提示词库：统一方形卡片 ===== */
-.markdown-preview-view.prompt-square-cards .callout[data-callout^="nav-"],
-.markdown-preview-view.prompt-square-cards .callout[data-callout^="web-"],
-.markdown-source-view.prompt-square-cards .callout[data-callout^="nav-"],
-.markdown-source-view.prompt-square-cards .callout[data-callout^="web-"] {
-  border-radius: 6px !important;
+/* ===== Obsidian 提示词库：统一圆角卡片 ===== */
+.markdown-preview-view.prompt-round-cards .callout[data-callout^="nav-"],
+.markdown-preview-view.prompt-round-cards .callout[data-callout^="web-"],
+.markdown-source-view.prompt-round-cards .callout[data-callout^="nav-"],
+.markdown-source-view.prompt-round-cards .callout[data-callout^="web-"] {
+  border-radius: 22px !important;
+  margin: 14px 0 !important;
+  padding: 0 !important;
 }
 
-.markdown-preview-view.prompt-square-cards .callout[data-callout^="nav-"] .callout-content a.internal-link,
-.markdown-source-view.prompt-square-cards .callout[data-callout^="nav-"] .callout-content a.internal-link,
-.markdown-preview-view.prompt-square-cards .callout[data-callout^="web-"] .callout-content li,
-.markdown-source-view.prompt-square-cards .callout[data-callout^="web-"] .callout-content li {
-  border-radius: 6px !important;
+.markdown-preview-view.prompt-round-cards .callout[data-callout^="nav-"] .callout-content a.internal-link,
+.markdown-source-view.prompt-round-cards .callout[data-callout^="nav-"] .callout-content a.internal-link,
+.markdown-preview-view.prompt-round-cards .callout[data-callout^="web-"] .callout-content li,
+.markdown-source-view.prompt-round-cards .callout[data-callout^="web-"] .callout-content li {
+  border-radius: 18px !important;
 }
 
-.markdown-preview-view.prompt-square-cards .callout[data-callout^="nav-"] .callout-title,
-.markdown-preview-view.prompt-square-cards .callout[data-callout^="web-"] .callout-title,
-.markdown-source-view.prompt-square-cards .callout[data-callout^="nav-"] .callout-title,
-.markdown-source-view.prompt-square-cards .callout[data-callout^="web-"] .callout-title {
-  border-radius: 6px !important;
+.markdown-preview-view.prompt-round-cards .callout[data-callout^="nav-"] .callout-title,
+.markdown-preview-view.prompt-round-cards .callout[data-callout^="web-"] .callout-title,
+.markdown-source-view.prompt-round-cards .callout[data-callout^="nav-"] .callout-title,
+.markdown-source-view.prompt-round-cards .callout[data-callout^="web-"] .callout-title {
+  border-radius: 22px !important;
+  min-height: 64px !important;
+  padding: 0 22px !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.markdown-preview-view.prompt-round-cards .callout[data-callout^="nav-"] .callout-title-inner,
+.markdown-preview-view.prompt-round-cards .callout[data-callout^="web-"] .callout-title-inner,
+.markdown-source-view.prompt-round-cards .callout[data-callout^="nav-"] .callout-title-inner,
+.markdown-source-view.prompt-round-cards .callout[data-callout^="web-"] .callout-title-inner {
+  font-size: 1.35rem !important;
+  font-weight: 800 !important;
+  line-height: 1.2 !important;
+}
+
+.markdown-preview-view.prompt-round-cards .callout[data-callout^="nav-"] .callout-icon,
+.markdown-preview-view.prompt-round-cards .callout[data-callout^="web-"] .callout-icon,
+.markdown-source-view.prompt-round-cards .callout[data-callout^="nav-"] .callout-icon,
+.markdown-source-view.prompt-round-cards .callout[data-callout^="web-"] .callout-icon {
+  width: 24px !important;
+  height: 24px !important;
+  flex: 0 0 24px !important;
 }
