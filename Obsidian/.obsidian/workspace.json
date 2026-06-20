@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Codex提示词/01_Obsidian/Obsidian_提示词总览.md",
-                "mode": "source",
+                "file": "Codex提示词/01_Obsidian/06_办公软件_PPT/PPT高级视觉提示词.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian_提示词总览"
+              "title": "PPT高级视觉提示词"
             }
           }
         ]
@@ -185,6 +185,8 @@
   },
   "active": "f71482fe15e4bd23",
   "lastOpenFiles": [
+    "Codex提示词/01_Obsidian/06_办公软件_PPT/Excel数据处理提示词.md",
+    "Codex提示词/01_Obsidian/Obsidian_提示词总览.md",
     "Codex提示词/01_Obsidian/99_使用记录/Obsidian提示词使用记录.md",
     "Codex提示词/01_Obsidian/04_电气自动化笔记/操作步骤笔记提示词.md",
     "Codex提示词/01_Obsidian/03_计算机笔记/Linux命令笔记提示词.md",
@@ -198,7 +200,6 @@
     "Codex提示词/01_Obsidian/01_通用整理/Obsidian_目录结构整理提示词.md",
     "Codex提示词/01_Obsidian/01_通用整理/Obsidian_标签整理提示词.md",
     "Codex提示词/01_Obsidian/06_办公软件_PPT/办公软件分类导航提示词.md",
-    "Codex提示词/01_Obsidian/06_办公软件_PPT/Excel数据处理提示词.md",
     "Codex提示词/01_Obsidian/06_办公软件_PPT/Word文档整理提示词.md",
     "Codex提示词/01_Obsidian/06_办公软件_PPT/PPT排版检查提示词.md",
     "Codex提示词/01_Obsidian/06_办公软件_PPT/PPT高级视觉提示词.md",
@@ -210,7 +211,6 @@
     "Codex提示词/01_Obsidian/05_网站管理笔记/网站导航页提示词.md",
     "Codex提示词/01_Obsidian/04_电气自动化笔记/应急处置笔记提示词.md",
     "Codex提示词/01_Obsidian/04_电气自动化笔记/异常处理笔记提示词.md",
-    "Codex提示词/01_Obsidian/04_电气自动化笔记/设备原理笔记提示词.md",
     "Codex提示词/01_Obsidian/99_使用记录",
     "Codex提示词/01_Obsidian/06_办公软件_PPT",
     "Codex提示词/01_Obsidian/05_网站管理笔记",
