@@ -16,7 +16,15 @@ $toolDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $repo = Split-Path -Parent $toolDir
 $git = "D:\App\APP_code\Git\cmd\git.exe"
 $debounceSeconds = 8
+$pollSeconds = 60
 $lastRun = Get-Date "2000-01-01"
+$logFile = Join-Path $repo "auto-sync.log"
+
+function Write-SyncLog {
+    param([string]$Message)
+    $line = "$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') $Message"
+    Add-Content -Path $logFile -Value $line -Encoding UTF8
+}
 
 function Invoke-GitSync {
     $now = Get-Date
@@ -30,19 +38,27 @@ function Invoke-GitSync {
     try {
         $status = & $git status --porcelain
         if (-not $status) {
+            Write-SyncLog "No changes."
             return
         }
 
-        & $git add .
+        Write-SyncLog "Changes detected. Syncing..."
+        & $git add -A
 
         $statusAfterAdd = & $git status --porcelain
         if (-not $statusAfterAdd) {
+            Write-SyncLog "No changes after add."
             return
         }
 
         $message = "Auto sync $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
         & $git commit -m $message
         & $git -c http.proxy= -c https.proxy= push
+        Write-SyncLog "Sync complete."
+    }
+    catch {
+        Write-SyncLog "Sync failed: $($_.Exception.Message)"
+        throw
     }
     finally {
         Pop-Location
@@ -67,11 +83,11 @@ Register-ObjectEvent $watcher Changed -Action $action | Out-Null
 Register-ObjectEvent $watcher Deleted -Action $action | Out-Null
 Register-ObjectEvent $watcher Renamed -Action $action | Out-Null
 
-Write-Host "Auto sync is watching: $repo"
-Write-Host "Keep this PowerShell window open. Press Ctrl+C to stop."
+Write-SyncLog "Auto sync started. Watching: $repo"
 
 Invoke-GitSync
 
 while ($true) {
-    Start-Sleep -Seconds 1
+    Start-Sleep -Seconds $pollSeconds
+    Invoke-GitSync
 }
