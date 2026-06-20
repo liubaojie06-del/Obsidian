@@ -11,14 +11,10 @@
             "id": "f71482fe15e4bd23",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "网站管理/编程网站.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "编程网站"
+              "title": "新标签页"
             }
           }
         ]
@@ -183,20 +179,20 @@
       "bases:新建数据库": false
     }
   },
-  "active": "f71482fe15e4bd23",
+  "active": "4a46f7e6f423e758",
   "lastOpenFiles": [
     "AI提示词/AI文本提示词.md",
+    "未命名.base",
+    "网站管理/编程网站.md",
     "AI提示词/AI文本提示词 1.md",
     "AI提示词",
     "网站管理/工具网站.md",
-    "网站管理/编程网站.md",
     "网站管理/学习网站.md",
     "网站管理/工控网站.md",
     "Codex提示词/00_office",
     "Codex提示词",
     "计算机语言/C/4. 构造数据类型/01_联合体.md",
     "未命名.md",
-    "未命名.base",
     "计算机语言/C/7_内存管理/01_堆区内存管理.md",
     "计算机语言/C/7_内存管理/00_变量的存储空间.md",
     "计算机语言/C/3. 指针与高级函数/01_高级函数/01_递归函数.md",
