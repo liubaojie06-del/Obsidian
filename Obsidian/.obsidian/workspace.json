@@ -11,14 +11,13 @@
             "id": "f71482fe15e4bd23",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Codex提示词/01_Obsidian/Obsidian_提示词总览.md",
-                "mode": "preview",
-                "source": false
+                "file": "电气自动化/数据库.base",
+                "viewName": "表格"
               },
-              "icon": "lucide-file",
-              "title": "Obsidian_提示词总览"
+              "icon": "lucide-table",
+              "title": "数据库"
             }
           }
         ]
@@ -185,8 +184,10 @@
   },
   "active": "f71482fe15e4bd23",
   "lastOpenFiles": [
-    "Codex提示词/00_office/00_办公软件提示词总览.md",
+    "未命名.base",
+    "电气自动化/数据库.base",
     "Codex提示词/01_Obsidian/Obsidian_提示词总览.md",
+    "Codex提示词/00_office/00_办公软件提示词总览.md",
     "Codex提示词/00_office/文件/03_PowerPoint/PPT_高级视觉提示词.md",
     "Codex提示词/00_office/文件/03_PowerPoint/PPT_通用可编辑提示词.md",
     "Codex提示词/00_office/文件/02_Excel/Excel_公式生成提示词.md",
@@ -212,7 +213,6 @@
     "Codex提示词/01_Obsidian/06_办公软件_PPT/PPT高级视觉提示词.md",
     "Codex提示词/01_Obsidian/06_办公软件_PPT/Excel数据处理提示词.md",
     "Codex提示词/01_Obsidian/99_使用记录/Obsidian提示词使用记录.md",
-    "Codex提示词/01_Obsidian/文件/04_电气自动化笔记/操作步骤笔记提示词.md",
     "Codex提示词/01_Obsidian/99_使用记录",
     "Codex提示词/01_Obsidian/06_办公软件_PPT",
     "Codex提示词/01_Obsidian/文件/05_网站管理笔记",
@@ -220,7 +220,6 @@
     "Codex提示词/01_Obsidian/文件/03_计算机笔记",
     "Codex提示词/01_Obsidian/文件/02_学习笔记",
     "Codex提示词/01_Obsidian/文件/01_通用整理",
-    "网站管理/工具网站",
     "Pasted image 20260503203406.png",
     "电气自动化/02_硬件/02_驱动与运动控制层/00_变频器/未命名.canvas",
     "电气自动化/软件/西门子PLC/项目树/设备/1_项目/未命名.canvas"
