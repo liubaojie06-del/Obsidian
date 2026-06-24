@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Codex提示词/01_Obsidian/文件/05_网站管理笔记/工具网站整理提示词.md",
+                "file": "网站管理/学习网站.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "工具网站整理提示词"
+              "title": "学习网站"
             }
           }
         ]
@@ -183,17 +183,17 @@
       "bases:新建数据库": false
     }
   },
-  "active": "4a46f7e6f423e758",
+  "active": "f71482fe15e4bd23",
   "lastOpenFiles": [
+    "网站管理/工控网站.md",
+    "网站管理/编程网站.md",
+    "网站管理/工具网站.md",
+    "网站管理/工具网站/账号_接码工具.md",
     "Codex提示词/01_Obsidian/文件/05_网站管理笔记/工具网站整理提示词.md",
     "Codex提示词/01_Obsidian/文件/05_网站管理笔记/网站分类扩展提示词.md",
     "Codex提示词/01_Obsidian/文件/05_网站管理笔记/网站导航页提示词.md",
     "Codex提示词/01_Obsidian/文件/05_网站管理笔记/编程网站整理提示词.md",
-    "网站管理/工具网站/账号_接码工具.md",
     "网站管理/学习网站.md",
-    "网站管理/工控网站.md",
-    "网站管理/工具网站.md",
-    "网站管理/编程网站.md",
     "电气自动化/数据库.base",
     "未命名.base",
     "Codex提示词/01_Obsidian/Obsidian_提示词总览.md",
