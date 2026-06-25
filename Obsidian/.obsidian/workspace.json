@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机语言/C/7_内存管理/未命名.md",
+                "file": "计算机语言/C/7_内存管理/00_变量的存储空间.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "00_变量的存储空间"
             }
           }
         ]
@@ -185,8 +185,9 @@
   },
   "active": "f71482fe15e4bd23",
   "lastOpenFiles": [
-    "计算机语言/C/4. 构造数据类型/03_位域.md",
     "计算机语言/C/7_内存管理/未命名.md",
+    "计算机语言/C/7_内存管理/01_堆区内存管理.md",
+    "计算机语言/C/4. 构造数据类型/03_位域.md",
     "计算机语言/C/4. 构造数据类型/02_枚举.md",
     "计算机语言/C/4. 构造数据类型/01_联合体.md",
     "计算机语言/C/4. 构造数据类型/00_结构体.md",
@@ -213,7 +214,6 @@
     "Codex提示词/00_office/文件",
     "Codex提示词/00_office/01_Word/Word_提示词目录.md",
     "Codex提示词/00_office/文件/01_Word/Word_论文格式整理提示词.md",
-    "Codex提示词/00_office/02_Excel/Excel_提示词目录.md",
     "Codex提示词/01_Obsidian/文件",
     "Codex提示词/01_Obsidian/99_使用记录",
     "Codex提示词/01_Obsidian/06_办公软件_PPT",
