@@ -74,8 +74,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -184,8 +183,9 @@
       "bases:新建数据库": false
     }
   },
-  "active": "f71482fe15e4bd23",
+  "active": "4a46f7e6f423e758",
   "lastOpenFiles": [
+    "计算机语言/C/未命名",
     "计算机语言/C/7_内存管理/02_顺序表.md",
     "计算机语言/C/2. 函数与程序组织/02_内存管理家族/00_sizeof.md",
     "计算机语言/C/2. 函数与程序组织/00_函数/00_函数.md",
@@ -213,7 +213,6 @@
     "电气自动化/数据库.base",
     "未命名.base",
     "Codex提示词/01_Obsidian/Obsidian_提示词总览.md",
-    "Codex提示词/00_office/00_办公软件提示词总览.md",
     "Codex提示词/00_office/文件",
     "Codex提示词/01_Obsidian/文件",
     "Codex提示词/01_Obsidian/99_使用记录",
