@@ -2,16 +2,12 @@
   "tabManagerState": {
     "openTabs": [
       {
-        "tabId": "tab-1782658046184-c2bncsb",
-        "conversationId": "conv-1782658799360-rb7hhhwdl"
-      },
-      {
         "draftModel": "gpt-5.5",
         "tabId": "tab-1782658897724-evot2pv",
         "conversationId": null
       }
     ],
-    "activeTabId": "tab-1782658046184-c2bncsb"
+    "activeTabId": "tab-1782658897724-evot2pv"
   },
   "settingsProvider": "codex",
   "model": "gpt-5.5",
