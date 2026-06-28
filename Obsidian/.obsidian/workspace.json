@@ -179,7 +179,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 369.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,7 +193,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "c29b75effe89beb1",
+  "active": "f71482fe15e4bd23",
   "lastOpenFiles": [
     "2026-06-28.md",
     "未命名.base",

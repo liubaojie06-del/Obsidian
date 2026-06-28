@@ -4,6 +4,22 @@
   "title": "你可以干什么",
   "titleGenerationStatus": "failed",
   "createdAt": 1782658799398,
-  "updatedAt": 1782658799429,
-  "sessionId": null
+  "updatedAt": 1782658866060,
+  "lastResponseAt": 1782658866060,
+  "sessionId": "019f0ebe-981b-7003-80eb-13d0358d7119",
+  "providerState": {
+    "threadId": "019f0ebe-981b-7003-80eb-13d0358d7119",
+    "sessionFilePath": "C:\\Users\\liuba\\.codex\\sessions\\2026\\06\\28\\rollout-2026-06-28T23-00-04-019f0ebe-981b-7003-80eb-13d0358d7119.jsonl",
+    "transcriptRootPath": "C:\\Users\\liuba\\.codex\\sessions"
+  },
+  "usage": {
+    "inputTokens": 12785,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 12160,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 12785,
+    "percentage": 5,
+    "model": "gpt-5.5"
+  }
 }
