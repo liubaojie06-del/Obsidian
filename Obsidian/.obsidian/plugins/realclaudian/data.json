@@ -2,11 +2,38 @@
   "tabManagerState": {
     "openTabs": [
       {
-        "draftModel": "sonnet",
+        "draftModel": "gpt-5.5",
         "tabId": "tab-1782658046184-c2bncsb",
         "conversationId": null
       }
     ],
     "activeTabId": "tab-1782658046184-c2bncsb"
+  },
+  "settingsProvider": "codex",
+  "model": "gpt-5.5",
+  "effortLevel": "high",
+  "providerConfigs": {
+    "codex": {
+      "enabled": true,
+      "safeMode": "workspace-write",
+      "cliPath": "",
+      "cliPathsByHost": {
+        "JASPER": "D:\\App\\APP_code\\Codex CLI\\codex.cmd"
+      },
+      "customModels": "",
+      "reasoningSummary": "detailed",
+      "environmentVariables": "",
+      "environmentHash": "",
+      "installationMethodsByHost": {
+        "JASPER": "native-windows"
+      },
+      "wslDistroOverridesByHost": {}
+    }
+  },
+  "savedProviderModel": {
+    "codex": "gpt-5.5"
+  },
+  "savedProviderEffort": {
+    "codex": "high"
   }
 }
