@@ -1,12 +1,30 @@
-{
-  "tabManagerState": {
-    "openTabs": [
-      {
-        "draftModel": "haiku",
-        "tabId": "tab-1782654650235-5ukjayk",
-        "conversationId": null
-      }
-    ],
-    "activeTabId": "tab-1782654650235-5ukjayk"
-  }
+﻿{
+    "tabManagerState":  {
+                            "openTabs":  [
+                                             {
+                                                 "draftModel":  "haiku",
+                                                 "tabId":  "tab-1782654650235-5ukjayk",
+                                                 "conversationId":  null
+                                             }
+                                         ],
+                            "activeTabId":  "tab-1782654650235-5ukjayk"
+                        },
+    "providerConfigs":  {
+                            "codex":  {
+                                          "enabled":  true,
+                                          "safeMode":  "workspace-write",
+                                          "cliPath":  "",
+                                          "cliPathsByHost":  {
+                                                                 "JASPER":  "D:\\App\\APP_code\\Codex CLI\\codex.cmd"
+                                                             },
+                                          "customModels":  "",
+                                          "reasoningSummary":  "detailed",
+                                          "installationMethodsByHost":  {
+                                                                            "JASPER":  "native-windows"
+                                                                        },
+                                          "wslDistroOverridesByHost":  {
+
+                                                                       }
+                                      }
+                        }
 }
