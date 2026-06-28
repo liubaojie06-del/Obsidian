@@ -11,14 +11,13 @@
             "id": "f71482fe15e4bd23",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Codex提示词/01_Obsidian/Obsidian笔记提示词总览.md",
-                "mode": "preview",
-                "source": false
+                "file": "未命名.base",
+                "viewName": "表格"
               },
-              "icon": "lucide-file",
-              "title": "Obsidian笔记提示词总览"
+              "icon": "lucide-table",
+              "title": "未命名"
             }
           }
         ]
@@ -183,10 +182,13 @@
       "bases:新建数据库": false
     }
   },
-  "active": "4a46f7e6f423e758",
+  "active": "f71482fe15e4bd23",
   "lastOpenFiles": [
-    "Codex提示词/00_office/office软件提示词总览.md",
+    "2026-06-28.md",
+    "未命名.base",
+    "未命名.canvas",
     "Codex提示词/01_Obsidian/Obsidian笔记提示词总览.md",
+    "Codex提示词/00_office/office软件提示词总览.md",
     "计算机语言/C/7_数据结构/03_数据内存概念/01_堆区内存管理.md",
     "计算机语言/C/7_数据结构/03_数据内存概念",
     "计算机语言/C/7_数据结构/03_数据内存概念/00_变量的存储空间.md",
@@ -213,10 +215,7 @@
     "计算机语言/C/6_预处理/03_不定参数宏.md",
     "计算机语言/C/6_预处理/02_字符串化运算符.md",
     "计算机语言/C/6_预处理/01_宏函数.md",
-    "网站管理/学习网站.md",
-    "网站管理/工控网站.md",
     "电气自动化/数据库.base",
-    "未命名.base",
     "Codex提示词/00_office/文件",
     "Codex提示词/01_Obsidian/文件",
     "Codex提示词/01_Obsidian/99_使用记录",
