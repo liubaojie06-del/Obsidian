@@ -21,7 +21,7 @@
     "focusInputKey": "i"
   },
   "requireCommandOrControlEnterToSend": false,
-  "locale": "en",
+  "locale": "zh-CN",
   "providerConfigs": {
     "claude": {
       "safeMode": "acceptEdits",
@@ -38,7 +38,7 @@
       "environmentHash": ""
     },
     "codex": {
-      "enabled": false,
+      "enabled": true,
       "safeMode": "workspace-write",
       "cliPath": "",
       "cliPathsByHost": {
