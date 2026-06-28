@@ -41,14 +41,14 @@
       "enabled": false,
       "safeMode": "workspace-write",
       "cliPath": "",
-      "cliPathsByHost": {},
+      "cliPathsByHost": {
+        "device:1e0f8a95-d592-4ffa-93a0-a33c39f233b2": "C:\\Users\\liuba\\AppData\\Local\\Programs\\nodejs\\node-v24.18.0-win-x64\\codex.cmd"
+      },
       "customModels": "",
       "reasoningSummary": "detailed",
       "environmentVariables": "",
       "environmentHash": "",
-      "installationMethod": "native-windows",
       "installationMethodsByHost": {},
-      "wslDistroOverride": "",
       "wslDistroOverridesByHost": {}
     },
     "opencode": {
