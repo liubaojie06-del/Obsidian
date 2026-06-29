@@ -4,8 +4,8 @@
   "title": "开头笔记属性不对改一下",
   "titleGenerationStatus": "failed",
   "createdAt": 1782735691071,
-  "updatedAt": 1782736534056,
-  "lastResponseAt": 1782736534056,
+  "updatedAt": 1782738785363,
+  "lastResponseAt": 1782738785363,
   "sessionId": "019f1353-e188-7772-b894-ef14feae97bf",
   "providerState": {
     "threadId": "019f1353-e188-7772-b894-ef14feae97bf",
@@ -13,13 +13,13 @@
     "transcriptRootPath": "C:\\Users\\liuba\\.codex\\sessions"
   },
   "usage": {
-    "inputTokens": 52900,
+    "inputTokens": 62516,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 52096,
+    "cacheReadInputTokens": 61824,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 52900,
-    "percentage": 20,
+    "contextTokens": 62516,
+    "percentage": 24,
     "model": "gpt-5.5"
   }
 }
