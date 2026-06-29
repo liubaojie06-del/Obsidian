@@ -4,6 +4,23 @@
   "title": "开头笔记属性不对改一下",
   "titleGenerationStatus": "failed",
   "createdAt": 1782735691071,
-  "updatedAt": 1782735691130,
-  "sessionId": null
+  "updatedAt": 1782735790356,
+  "lastResponseAt": 1782735790356,
+  "sessionId": "019f1353-e188-7772-b894-ef14feae97bf",
+  "providerState": {
+    "threadId": "019f1353-e188-7772-b894-ef14feae97bf",
+    "sessionFilePath": "C:\\Users\\liuba\\.codex\\sessions\\2026\\06\\29\\rollout-2026-06-29T20-21-37-019f1353-e188-7772-b894-ef14feae97bf.jsonl",
+    "transcriptRootPath": "C:\\Users\\liuba\\.codex\\sessions"
+  },
+  "currentNote": "计算机语言/C/7_数据结构/00_线性结构/02_顺序栈.md",
+  "usage": {
+    "inputTokens": 22675,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 21888,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 22675,
+    "percentage": 9,
+    "model": "gpt-5.5"
+  }
 }
