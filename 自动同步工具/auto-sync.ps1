@@ -18,7 +18,7 @@ $git = "D:\App\APP_code\Git\cmd\git.exe"
 $debounceSeconds = 8
 $pollSeconds = 60
 $lastRun = Get-Date "2000-01-01"
-$logFile = Join-Path $repo "auto-sync.log"
+$logFile = Join-Path $toolDir "auto-sync.log"
 
 function Write-SyncLog {
     param([string]$Message)
