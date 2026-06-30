@@ -4,23 +4,22 @@
   "title": "二叉树基础",
   "titleGenerationStatus": "failed",
   "createdAt": 1782832125054,
-  "updatedAt": 1782833351061,
-  "lastResponseAt": 1782833351061,
+  "updatedAt": 1782834291731,
+  "lastResponseAt": 1782834291731,
   "sessionId": "019f1913-5a60-7621-9e87-ada0206fab8f",
   "providerState": {
     "threadId": "019f1913-5a60-7621-9e87-ada0206fab8f",
     "sessionFilePath": "C:\\Users\\liuba\\.codex\\sessions\\2026\\06\\30\\rollout-2026-06-30T23-08-51-019f1913-5a60-7621-9e87-ada0206fab8f.jsonl",
     "transcriptRootPath": "C:\\Users\\liuba\\.codex\\sessions"
   },
-  "currentNote": "计算机语言/C/7_数据结构/01_非线性结构/00_树/二叉树/未命名.md",
   "usage": {
-    "inputTokens": 101826,
+    "inputTokens": 129498,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 101248,
+    "cacheReadInputTokens": 128896,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 101826,
-    "percentage": 39,
+    "contextTokens": 129498,
+    "percentage": 50,
     "model": "gpt-5.5"
   }
 }
