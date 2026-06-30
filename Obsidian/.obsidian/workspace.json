@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f71482fe15e4bd23",
+            "id": "7284afa7eca203f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -194,7 +194,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "c29b75effe89beb1",
+  "active": "7284afa7eca203f4",
   "lastOpenFiles": [
     "二叉搜索树.md",
     "计算机语言/C/7_数据结构/01_非线性结构/00_树/二叉树/未命名.md",
