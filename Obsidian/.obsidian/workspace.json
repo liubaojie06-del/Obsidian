@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网站管理/编程网站.md",
+                "file": "网站管理/工具网站.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "编程网站"
+              "title": "工具网站"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网站管理/编程网站.md",
+                "file": "网站管理/工具网站.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "编程网站 的大纲"
+              "title": "工具网站 的大纲"
             }
           },
           {
@@ -196,6 +196,7 @@
   },
   "active": "7284afa7eca203f4",
   "lastOpenFiles": [
+    "网站管理/编程网站.md",
     "计算机语言/C/7_数据结构/00_线性结构/01_链表.md",
     "计算机语言/C/7_数据结构/00_线性结构/00_顺序表.md",
     "计算机语言/C/7_数据结构/00_线性结构/04_循环队列.md",
@@ -220,7 +221,6 @@
     "网站管理/学习网站.md",
     "工具网站/账号_接码工具.md",
     "工具网站",
-    "网站管理/编程网站.md",
     "计算机语言/C/7_数据结构/00_线性结构/未命名.md",
     "未命名.base",
     "2026-06-28.md",
