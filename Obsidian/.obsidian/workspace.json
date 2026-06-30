@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "电气自动化/📚 数据库.base",
+                "file": "计算机语言/C/7_数据结构/01_非线性结构/00_树/二叉树/未命名.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "📚 数据库 的大纲"
+              "title": "未命名 的大纲"
             }
           },
           {
@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -194,7 +194,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "f71482fe15e4bd23",
+  "active": "7960c6d2b01c1de7",
   "lastOpenFiles": [
     "二叉搜索树.md",
     "计算机语言/C/7_数据结构/01_非线性结构/00_树/二叉树/未命名.md",
