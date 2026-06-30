@@ -4,8 +4,8 @@
   "title": "二叉树基础",
   "titleGenerationStatus": "failed",
   "createdAt": 1782832125054,
-  "updatedAt": 1782832704048,
-  "lastResponseAt": 1782832704048,
+  "updatedAt": 1782833351061,
+  "lastResponseAt": 1782833351061,
   "sessionId": "019f1913-5a60-7621-9e87-ada0206fab8f",
   "providerState": {
     "threadId": "019f1913-5a60-7621-9e87-ada0206fab8f",
@@ -14,13 +14,13 @@
   },
   "currentNote": "计算机语言/C/7_数据结构/01_非线性结构/00_树/二叉树/未命名.md",
   "usage": {
-    "inputTokens": 75298,
+    "inputTokens": 101826,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 75136,
+    "cacheReadInputTokens": 101248,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 75298,
-    "percentage": 29,
+    "contextTokens": 101826,
+    "percentage": 39,
     "model": "gpt-5.5"
   }
 }
